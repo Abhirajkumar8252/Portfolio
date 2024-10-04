@@ -1,0 +1,258 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    height: 80px;
+    width: 100vw; 
+    position: fixed; 
+    background-color:rgb(80, 140, 155) ;
+    border-bottom: 4px solid rgb(205, 194, 165);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.name{
+    display: flex;
+    padding-left: 5px;
+    padding-right: 5px;
+    min-width: 30px;
+    /* min-width: 0%; */
+}
+.first-name{
+    color:rgb(32, 30, 67) ;
+}
+.last-name{
+    color: rgb(205, 194, 165) ;
+}
+.nav-bar{
+    display: flex;
+    padding-left: 30px;
+}
+.nav{
+    padding-left: 35px;
+    text-decoration: none;
+    color:  rgb(205, 194, 165);
+    font-weight: 700;
+    font-size: 20px;
+    border: 4px solid rgb(80, 140, 155); 
+    padding-right: 18px;
+}
+.nav1{
+    text-decoration: none;
+    color:  rgb(205, 194, 165);
+    font-weight: 700;
+    font-size: 20px;
+    border: 4px solid rgb(80, 140, 155); 
+    border-bottom: 4px solid rgb(32, 30, 67);
+    color:rgb(32, 30, 67) ; 
+    
+}
+.nav:hover{
+    border-bottom: 4px solid rgb(32, 30, 67);
+    color:rgb(32, 30, 67) ;
+}
+.button{
+    height: 38px;
+    width: 125px;
+}
+.button:hover{
+    background-color:  rgb(9, 83, 103);
+    border: 1px solid black;
+}
+.main{
+    height: 760px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly; 
+    /* margin-top: 150px; */
+    align-items: center;
+    background-color:  rgb(221, 238, 238);
+} 
+.main-container{
+    height: 400px;
+    width: 800px;
+    /* border: 2px solid black;   */
+    margin-top: 60px;
+    color: rgb(41, 74, 88);
+    
+}
+p{
+    font-size: 19px;
+}
+.photo{
+    height: 400px; 
+    width: 300px;
+    border: 2px solid; 
+    margin-top: 90px;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    margin-bottom: 110px;  
+    background-color: azure;
+    background-image: url(WhatsApp\ Image\ 2024-09-18\ at\ 00.58.11_fbe2b756.jpg);
+    background-size: cover;
+    box-shadow: 10px 1px 30px 3px  rgb(41, 74, 88);
+}
+.image{
+    height: 300px;
+    width: 400px;
+}
+.username{
+    display: flex;
+    
+}
+h1{
+    color:  rgb(80, 140, 155);
+}
+.user{
+    padding-left: 10px;
+    color: rgb(32, 30, 67);
+}
+.first{
+    height: 45px;
+    margin-top: 30px;
+    width: 130px;
+    background-color: rgb(205, 194, 165) ;
+    border-radius: 12px;
+}
+.first:hover{
+    background-color: rgb(198, 172, 106) ;
+    border: 1px solid black;
+}
+.second{
+    height: 45px;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 170px;
+    background-color: rgb(80, 140, 155) ;
+    border-radius: 12px;
+    border: 1px solid black;
+}
+.second:hover{
+    background-color: rgb(19, 96, 115) ;
+    border: 1px solid black;
+}
+.main-first{
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgb(80, 140, 155) ;
+     /* border: 4px solid  rgb(205, 194, 165); */
+} 
+
+.first-cotainer{
+    height: 400px;
+    width: 800px;
+    /* border: 2px solid;   */
+    padding-top: 50px;
+    color: rgb(205, 194, 165);
+}
+.photo1{
+    height: 400px; 
+    width: 300px;
+    border: 2px solid; 
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    background-color: azure;
+    background-image: url(WhatsApp\ Image\ 2024-09-18\ at\ 00.58.11_fbe2b756.jpg);
+    background-size: cover;
+    box-shadow: 5px 3px 30px 0px rgb(17, 64, 64);
+}
+
+.front{
+   color: rgb(19, 88, 89); 
+}
+.form{
+    height: 750px;
+    display: flex;
+    align-items: center;
+    flex-direction:column ;
+    justify-content:space-around ;
+    background-color:  rgb(221, 238, 238);
+    /* background-image: url(WhatsApp\ Image\ 2024-09-01\ at\ 03.04.53_c7757bcc.jpg);
+    background-size: cover;  */
+} 
+.second-container{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
+}
+.Contect{
+    padding-left: 10px;
+    color:  rgb(74, 149, 150);
+}
+.Contact{
+    color:  rgb(13, 60, 61);
+}
+input{
+    height: 45px; 
+    width: 870px;
+    font-weight: 700;
+    padding-left: 10px;
+    border-radius: 25px;
+    background-color: rgb(248, 244, 239);
+}
+.text{
+    padding: 10px;
+    background-color: rgb(248, 244, 239);
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.sender{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(74, 149, 150);
+    /* border: 2px solid black; */
+    border-radius: 14px;
+
+}
+.sender:hover{
+    background-color: rgb(23, 127, 129);
+    border: 1px solid black;
+}
+
+footer{
+    height: 250px;
+    background-color:rgb(16, 68, 68);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.footer-name{
+    padding-left: 30px;
+    text-decoration: none;
+    color: rgba(250, 227, 198, 0.5);
+    font-weight: 400;
+
+}
+.footer-name:hover{
+    color: rgb(228, 218, 204);
+}
+
+i{
+    padding-left: 20px;
+    opacity: 0.2; 
+}
+i:hover{
+    color: rgb(249, 249, 241);
+}
+.link{
+    text-decoration: none;
+    color: rgba(250, 227, 198, 0.5) ;
+}
+
+.icon{
+    font-size: 25px;
+}
+/* .icon:hover{
+    color: rgb(196, 57, 57);
+} */
